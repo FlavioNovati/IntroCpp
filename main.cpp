@@ -3,17 +3,6 @@
 
 using namespace std;
 
-struct Student
-{
-
-	int age;
-
-	public:Student()
-	{
-		age = 0;
-	}
-};
-
 int main()
 {
 	std::cout << "Please Input A value: ";
@@ -23,7 +12,7 @@ int main()
 	bool test = false;
 
 	Rectangle myRect(5, 5);
-	
+
 	int area = myRect.GetArea();
 	std::cout << area;
 

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d61fe3fc-1f55-457d-98fd-78e37ead0529}</ProjectGuid>
-    <RootNamespace>IntroCPP</RootNamespace>
+    <ProjectGuid>{678d2cbe-377d-4aa1-9526-8bf2fdf6e6ae}</ProjectGuid>
+    <RootNamespace>IntroCpp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,11 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="IntroCPP.cpp" />
+    <ClCompile Include="IntroCpp.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="WeaponData.cpp" />
+    <ClCompile Include="WeaponType.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IntroCPP.h" />
+    <ClInclude Include="IntroCpp.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="WeaponData.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
